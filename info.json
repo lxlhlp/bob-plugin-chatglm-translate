@@ -1,0 +1,55 @@
+{
+  "identifier": "chatglm.plugins.translate",
+  "version": "0.1.0",
+  "category": "translate",
+  "name": "智普翻译",
+  "summary": "智普清言翻译插件",
+  "icon": "",
+  "author": "玄晓生",
+  "homepage": "",
+  "appcast": "",
+  "minBobVersion": "1.8.0",
+  "options": [
+    {
+      "identifier": "APIkey",
+      "type": "text",
+      "title": "API密钥"
+    },
+    {
+      "identifier": "model",
+      "type": "menu",
+      "title": "语言模型",
+      "defaultValue": "GLM-4-Flash",
+      "menuValues": [
+        {
+          "title": "最新旗舰[GLM-4-0520]",
+          "value": "GLM-4-0520"
+        },
+        {
+          "title": "超长输入[GLM-4-Long]",
+          "value": "GLM-4-Long"
+        },
+        {
+          "title": "极速推理[GLM-4-AirX]",
+          "value": "GLM-4-AirX"
+        },
+        {
+          "title": "高性价比[GLM-4-Air]",
+          "value": "GLM-4-Air"
+        },
+        {
+          "title": "免费调用[GLM-4-Flash]",
+          "value": "GLM-4-Flash"
+        },
+        {
+          "title": "Agent模型[GLM-4-AllTools]",
+          "value": "GLM-4-AllTools"
+        },
+        {
+          "title": "旧版旗舰[GLM-4]",
+          "value": "GLM-4"
+        }
+      ]
+    }
+  ]
+}
