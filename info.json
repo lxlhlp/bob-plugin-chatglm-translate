@@ -1,6 +1,6 @@
 {
   "identifier": "chatglm.plugins.translate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "category": "translate",
   "name": "智普翻译",
   "summary": "智普清言翻译插件",
