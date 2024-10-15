@@ -12,6 +12,6 @@
 ![alt text](imgs/image.png)
 
 ## 怎么获取智普API密钥
-- 首先前往智谱AI大模型开放平台[https://open.bigmodel.cn/]注册账号
-- 前往控制台创建密钥,并复制即可
+- 首先前往[智谱AI大模型开放平台](https://open.bigmodel.cn/)
+- 前往控制台创建密钥,并复制即可注册账号
   ![alt text](imgs/image-1.png)
