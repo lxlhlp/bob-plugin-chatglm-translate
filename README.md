@@ -8,8 +8,8 @@
 ## 使用方法
 - 双击安装
 - 配置好你的智普API密钥
-  
-![alt text](imgs/image.png)
+  ![alt text](imgs/image.png)
+- 如需要,你可以配置自己的提示词,借此你可以有更多玩法,比如名词解释,文言文翻译,写点小作文等等
 
 ## 怎么获取智普API密钥
 - 首先前往[智谱AI大模型开放平台](https://open.bigmodel.cn/)完成账号注册

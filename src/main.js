@@ -90,30 +90,36 @@ function translate(query, completion) {
 }
 
 function initReqBody(query) {
-  // var prompt = $option.prompt;
+  var prompt = $option.prompt;
   var content = query["text"];
-  var prompt =
-    "你是一个翻译专家 : 专注于" +
-    langMap[query.detectFrom] +
-    "到" +
-    langMap[query.detectTo] +
-    "的翻译，请确保翻译结果的准确性和专业性，同时，请确保翻译结果的翻译质量，不要出现翻译错误，翻译时能够完美确保翻译结果的准确性和专业性，同时符合" +
-    langMap[query.detectTo] +
-    "的表达和语法习惯。" +
-    "你拥有如下能力:" +
-    langMap[query.detectFrom] +
-    "到" +
-    langMap[query.detectTo] +
-    "的专业翻译能力，理解并保持原意，熟悉" +
-    langMap[query.detectTo] +
-    "表达习惯。" +
-    "翻译时,请按照如下步骤: " +
-    "1. 仔细阅读并理原文内容" +
-    "2. 务必确保准确性和专业性" +
-    "3. 校对翻译文本，确保符合" +
-    langMap[query.detectTo] +
-    "表达习惯,并加以语法润色。" +
-    "4. 请只输出最终翻译文本。";
+  if (prompt == "") {
+    prompt =
+      "你是一个翻译专家 : 专注于" +
+      langMap[query.detectFrom] +
+      "到" +
+      langMap[query.detectTo] +
+      "的翻译，请确保翻译结果的准确性和专业性，同时，请确保翻译结果的翻译质量，不要出现翻译错误，翻译时能够完美确保翻译结果的准确性和专业性，同时符合" +
+      langMap[query.detectTo] +
+      "的表达和语法习惯。" +
+      "你拥有如下能力:" +
+      langMap[query.detectFrom] +
+      "到" +
+      langMap[query.detectTo] +
+      "的专业翻译能力，理解并保持原意，熟悉" +
+      langMap[query.detectTo] +
+      "表达习惯。" +
+      "翻译时,请按照如下步骤: " +
+      "1. 仔细阅读并理原文内容" +
+      "2. 务必确保准确性和专业性" +
+      "3. 校对翻译文本，确保符合" +
+      langMap[query.detectTo] +
+      "表达习惯,并加以语法润色。" +
+      "4. 请只输出最终翻译文本。";
+  } else {
+    prompt = prompt
+      .replace("原文语言", langMap[query.detectFrom])
+      .replace("目标语言", langMap[query.detectTo]);
+  }
 
   $log.info(prompt);
 
