@@ -13,7 +13,7 @@ timestamp=$(date +%s000)
 
 newVersion=$(cat << EOF
 {
-  "version": "$version",
+  "version": "v$version",
   "desc": "新增功能",
   "sha256": "$hash",
   "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v$version/bob-plugin-chatglm-translate-v$version.bobplugin",
