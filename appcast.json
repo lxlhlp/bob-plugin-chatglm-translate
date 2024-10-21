@@ -2,12 +2,20 @@
   "identifier": "chatglm.plugins.translate",
   "versions": [
     {
+      "version": "1.1.1",
+      "desc": "新增功能",
+      "sha256": "25b92bf97d787034b210d3d1e0e46ea7e91792b01c2b06d5197f0de717933432",
+      "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v1.1.1/bob-plugin-chatglm-translate-v1.1.1.bobplugin",
+      "minBobVersion": "1.8.0",
+      "timestamp": 1729476070000
+    },
+    {
       "version": "1.1.0",
       "desc": "新增功能",
       "sha256": "3e4dbde38f87316009d3cbf650a4ab2b5fe5c0e23aeca16ed2341834cce1b61c",
-      "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/1.1.0/bob-plugin-chatglm-translate.bobplugin",
+      "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v1.1.0/bob-plugin-chatglm-translate-v1.1.0.bobplugin",
       "minBobVersion": "1.8.0",
-      "timestamp": 1728986199
+      "timestamp": 1729135870000
     },
     {
       "version": "1.0.0",
@@ -15,7 +23,7 @@
       "sha256": "fc2a3da9b54cb8b35b95adbdd686a9f4835c3f0c86c0ff37ec441d30d2dc9db2",
       "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v1.0.0/bob-plugin-chatglm-translate.bobplugin",
       "minBobVersion": "1.8.0",
-      "timestamp": 1728889515
+      "timestamp": 1728889515000
     }
   ]
 }
