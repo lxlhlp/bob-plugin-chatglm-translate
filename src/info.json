@@ -1,6 +1,6 @@
 {
   "identifier": "chatglm.plugins.translate",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "category": "translate",
   "name": "智普翻译",
   "summary": "智普清言翻译插件",
@@ -62,6 +62,22 @@
         "placeholderText": "默认情况下无需填写,如果你对翻译结果不满意,有更好的提示词idea,请在这里填写覆盖默认提示词;关键字[目标语言],[原文语言],实际使用时会自动替换为对应值,例如:中文,英文",
         "keyWords": ["原文语言", "目标语言"]
       }
+    },
+    {
+      "identifier": "web_search",
+      "type": "menu",
+      "title": "是否启用web搜索",
+      "defaultValue": "false",
+      "menuValues": [
+        {
+          "title": "是",
+          "value": "true"
+        },
+        {
+          "title": "否",
+          "value": "false"
+        }
+      ]
     }
   ]
 }

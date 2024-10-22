@@ -91,6 +91,7 @@ function translate(query, completion) {
 
 function initReqBody(query) {
   var prompt = $option.prompt;
+  var web_search = $option.web_search;
   var content = query["text"];
   if (prompt == "") {
     prompt =
@@ -121,8 +122,6 @@ function initReqBody(query) {
       .replace("目标语言", langMap[query.detectTo]);
   }
 
-  $log.info(prompt);
-
   return {
     model: $option.model,
     stream: true,
@@ -134,6 +133,14 @@ function initReqBody(query) {
       {
         role: "user",
         content: content,
+      },
+    ],
+    tools: [
+      {
+        type: "web_search",
+        web_search: {
+          enable: web_search,
+        },
       },
     ],
   };
