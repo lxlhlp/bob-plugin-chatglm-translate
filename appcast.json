@@ -3,7 +3,7 @@
   "versions": [
     {
       "version": "v1.2.0",
-      "desc": "新增功能",
+      "desc": "新增联网搜索功能",
       "sha256": "cafbb51cd5a430ff8482526f7fddbe8746fec2298741e56a6c52db583d7cafaf",
       "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v1.2.0/bob-plugin-chatglm-translate-v1.2.0.bobplugin",
       "minBobVersion": "1.8.0",
@@ -11,7 +11,7 @@
     },
     {
       "version": "v1.1.1",
-      "desc": "新增功能",
+      "desc": "修复一些小问题",
       "sha256": "25b92bf97d787034b210d3d1e0e46ea7e91792b01c2b06d5197f0de717933432",
       "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v1.1.1/bob-plugin-chatglm-translate-v1.1.1.bobplugin",
       "minBobVersion": "1.8.0",
@@ -19,7 +19,7 @@
     },
     {
       "version": "v1.1.0",
-      "desc": "新增功能",
+      "desc": "新增自定义提示词功能",
       "sha256": "3e4dbde38f87316009d3cbf650a4ab2b5fe5c0e23aeca16ed2341834cce1b61c",
       "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v1.1.0/bob-plugin-chatglm-translate-v1.1.0.bobplugin",
       "minBobVersion": "1.8.0",
