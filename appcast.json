@@ -2,6 +2,14 @@
   "identifier": "chatglm.plugins.translate",
   "versions": [
     {
+      "version": "v1.2.1",
+      "desc": "更新最新模型选择",
+      "sha256": "650e1817cf3509cd9fd403269c9431bad059f61d57e3618ab80bf65d0963a8b3",
+      "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v1.2.1/bob-plugin-chatglm-translate-v1.2.1.bobplugin",
+      "minBobVersion": "1.8.0",
+      "timestamp": 1730095793000
+    },
+    {
       "version": "v1.2.0",
       "desc": "新增联网搜索功能",
       "sha256": "cafbb51cd5a430ff8482526f7fddbe8746fec2298741e56a6c52db583d7cafaf",
