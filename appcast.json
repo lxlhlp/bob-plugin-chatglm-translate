@@ -3,11 +3,11 @@
   "versions": [
     {
       "version": "v1.2.2",
-      "desc": "新增功能",
-      "sha256": "028152eaba5feaa582f5afa77a72718f8da3888c740a9b7e8a9c80942f1fcc94",
+      "desc": "支持检查更新及主页跳转",
+      "sha256": "eb0ec5ed9c5f6e8fb65b7b942cb50edb823d960901387ee4296a9a68895dc4aa",
       "url": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/releases/download/v1.2.2/bob-plugin-chatglm-translate-v1.2.2.bobplugin",
       "minBobVersion": "1.8.0",
-      "timestamp": 1730857522000
+      "timestamp": 1730857839000
     },
     {
       "version": "v1.2.1",

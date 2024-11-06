@@ -7,7 +7,7 @@
   "icon": "",
   "author": "玄晓生",
   "homepage": "https://github.com/lxlhlp/bob-plugin-chatglm-translate",
-  "appcast": "https://github.com/lxlhlp/bob-plugin-chatglm-translate/blob/main/appcast.json",
+  "appcast": "https://raw.githubusercontent.com/lxlhlp/bob-plugin-chatglm-translate/refs/heads/main/appcast.json",
   "minBobVersion": "1.8.0",
   "options": [
     {
